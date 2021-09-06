@@ -1,0 +1,115 @@
+{
+  "datacenters" : [ 
+    {
+    	"name": "dc_source", 
+      	"type": "cloud"
+    },
+    {
+      "name": "dc_destination",
+      "type": "cloud"
+    },
+    {
+      "name": "net",
+      "type": "network"
+    }
+  ],
+  "nodes" : [
+    {
+      "name": "intercloud",
+      "type": "intercloud",
+      "iops": 1000000000,
+      "upports"   : 0,
+      "downports" : 2,
+      "bw" 		 : 125000000,
+      "datacenter": "net"
+    },
+    {
+      "name": "gw_dc_source",
+      "type": "gateway",
+      "iops": 100000000,
+      "upports": 1,
+      "downports": 2,
+      "bw": 75000000,
+      "datacenter": "net"
+    },
+    {
+      "name": "gw_dc_destination",
+      "type": "gateway",
+      "iops": 1000000000,
+      "upports": 1,
+      "downports": 1,
+      "bw": 125000000,
+      "datacenter": "net"
+    },
+    
+    {
+      "name": "edge1",
+      "type" : "edge",
+      "iops" : 1000000000,
+      "upports" : 1,
+      "downports" : 4,
+      "bw" : 100000,
+      "datacenter":"gw_dc_source"
+    },
+    {
+      "name": "edge2",
+      "type" : "edge",
+      "iops" : 1000000000,
+      "upports" : 1,
+      "downports" : 4,
+      "bw" : 100000,
+      "datacenter":"gw_dc_destination"
+    },
+    {
+      "name": "host01",
+      "type" : "host",
+      "pes" : 4,
+      "mips" : 4000,
+      "ram" : 2048,
+      "storage" : 10000000,
+      "bw" : 100000,
+      "datacenter":"gw_dc_source"
+    },
+     {
+      "name": "host02",
+      "type" : "host",
+      "pes" : 4,
+      "mips" : 8500,
+      "ram" : 4096,
+      "storage" : 10000000,
+      "bw" : 100000,
+      "datacenter":"gw_dc_source"
+    },
+    {
+      "name": "host03",
+      "type" : "host",
+      "pes" : 24,
+      "mips" : 4000,
+      "ram" : 2048,
+      "storage" : 10000000,
+      "bw" : 100000,
+      "datacenter":"gw_dc_destination"
+    },
+    {
+      "name": "host04",
+      "type" : "host",
+      "pes" : 4,
+      "mips" : 4000,
+      "ram" : 2048,
+      "storage" : 10000000,
+      "bw" : 100000,
+      "datacenter":"gw_dc_destination"
+    }
+	
+  ],
+  "links" : [
+    { "source" : "gw_dc_source" , "destination" : "intercloud" , "latency" : 1.0 },
+    { "source" : "intercloud" , "destination" : "gw_dc_destination" , "latency" : 1.0 },
+    { "source" : "gw_dc_source" , "destination" : "edge1" , "latency" : 1.0 },
+    { "source" : "gw_dc_destination" , "destination" : "edge2" , "latency" : 1.0 },
+    { "source" : "edge1" , "destination" : "host01" , "latency" : 100.0 },
+    { "source" : "edge1" , "destination" : "host02" , "latency" : 100.0 },
+    { "source" : "edge2" , "destination" : "host03" , "latency" : 100.0 },
+    { "source" : "edge2" , "destination" : "host04" , "latency" : 100.0 }
+  ]
+}

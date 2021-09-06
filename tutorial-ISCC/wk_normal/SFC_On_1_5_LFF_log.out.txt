@@ -1,0 +1,615 @@
+Data center infrastructure (Physical Topology) : ../tutorial-ISCC/sfc-topo-physical.json
+Virtual Machine and Network requests (Virtual Topology) : ../tutorial-ISCC/sfc-topo-virtual.json
+Workloads in ../tutorial-ISCC/wk_normal/ :
+  sfc-workload-normal.csv
+Starting CloudSim SDN...
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Entities started.
+0.0: NOS: Starting deploying application..
+0.0: NOS: Trying to Create VM #6 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #8 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #9 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #10 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #1 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #2 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #3 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #4 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #5 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #7 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #11 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #12 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #13 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #0 in Datacenter_0, (0.0~Infinity)
+0.0: NOS: Trying to Create VM #14 in Datacenter_0, (0.0~Infinity)
+[VmScheduler.vmCreate] Allocation of VM #0 to Host #5 failed by RAM
+0.0: NOS: VM Created: VM #6 (vm3.1) in (host03) in host03
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #8 (FW) in (host01) in host01
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #9 (IDS) in (host01) in host01
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #10 (LB) in (host02) in host02
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #1 (vm1.1) in (host01) in host01
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #2 (vm1.2) in (host01) in host01
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #3 (vm2.1) in (host02) in host02
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #4 (vm2.2) in (host02) in host02
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #5 (vm2.3) in (host02) in host02
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #7 (vm4.1) in (host04) in host04
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #11 (web_proxy) in (host03) in host03
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #12 (web_server) in (host04) in host04
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #13 (db1) in (host04) in host04
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #0 (source) in (host03) in host03
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: NOS: VM Created: VM #14 (destination) in (host04) in host04
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(1)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(2)->host02(3)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host02(5)->host03(6)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: VMs are in different hosts:host03(6)->host04(7)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(0)->host01(8)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host01(9)->host02(10)
+0.0: VMs are in different hosts:host02(10)->host03(11)
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: VMs are in different hosts:host03(11)->host04(12)
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+0.0: Source SDN Host is same as Destination. Go loopback
+5.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #13 (db1) in (host04)) is underutilized!!! util =0.0
+5.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #10 (LB) in (host02)) is underutilized!!! util =0.0
+5.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #12 (web_server) in (host04)) is underutilized!!! util =0.0
+5.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #11 (web_proxy) in (host03)) is underutilized!!! util =0.0
+5.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #8 (FW) in (host01)) is underutilized!!! util =0.0
+5.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #9 (IDS) in (host01)) is underutilized!!! util =0.0
+10.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #13 (db1) in (host04)) is underutilized!!! util =0.0
+10.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #10 (LB) in (host02)) is underutilized!!! util =0.0
+10.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #12 (web_server) in (host04)) is underutilized!!! util =0.0
+10.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #11 (web_proxy) in (host03)) is underutilized!!! util =0.0
+10.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #8 (FW) in (host01)) is underutilized!!! util =0.0
+10.0: ServiceFunctionAutoScaler.scaleSFC(): SF(VM #9 (IDS) in (host01)) is underutilized!!! util =0.0
+10.0: Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+10.0: Broker: Shuttingdown.. VM:6
+10.0: Broker: Shuttingdown.. VM:8
+10.0: Broker: Shuttingdown.. VM:9
+10.0: Broker: Shuttingdown.. VM:10
+10.0: Broker: Shuttingdown.. VM:1
+10.0: Broker: Shuttingdown.. VM:2
+10.0: Broker: Shuttingdown.. VM:3
+10.0: Broker: Shuttingdown.. VM:4
+10.0: Broker: Shuttingdown.. VM:5
+10.0: Broker: Shuttingdown.. VM:7
+10.0: Broker: Shuttingdown.. VM:11
+10.0: Broker: Shuttingdown.. VM:12
+10.0: Broker: Shuttingdown.. VM:13
+10.0: Broker: Shuttingdown.. VM:0
+10.0: Broker: Shuttingdown.. VM:14
+Simulation completed.
+Simulation completed.
+10.0: ========== EXPERIMENT FINISHED ===========
+========== HOST POWER CONSUMPTION based on Actual Workload processing ===========
+Host #8: 0.3494880935548264
+Host #7: 0.33603056130828124
+Host #6: 0.1895958068989052
+Host #5: 0.19911093714173614
+========== SWITCH POWER CONSUMPTION AND DETAILED UTILIZATION ===========
+Switch:edge2: 0.013854499999999886
+Switch:edge1: 0.013892666666666567
+Switch:gw_dc_destination: 0.009732499999999927
+Switch:gw_dc_source: 0.009732499999999927
+Switch:intercloud: 0.009732499999999927
+========== HOST Overload percentage ===========
+Overload Host #8: 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Overload Host #7: 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Overload Host #6: 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Overload Host #5: 0.0/0.0=0.0... Scaled Overload duration= 0.0
+========== VM Overload percentage ===========
+Vm(VM #7 (vm4.1) in (host04)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #12 (web_server) in (host04)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #13 (db1) in (host04)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #14 (destination) in (host04)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #6 (vm3.1) in (host03)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #11 (web_proxy) in (host03)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #0 (source) in (host03)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #10 (LB) in (host02)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #3 (vm2.1) in (host02)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #4 (vm2.2) in (host02)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #5 (vm2.3) in (host02)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #8 (FW) in (host01)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #9 (IDS) in (host01)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #1 (vm1.1) in (host01)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+Vm(VM #2 (vm1.2) in (host01)): 0.0/0.0=0.0... Scaled Overload duration= 0.0
+========== CONFIGURATIONS ===========
+workingDirectory :../tutorial-ISCC/wk_normal/
+overbookingTimeWindowInterval:5.0
+OVERLOAD_THRESHOLD:1.0
+OVERLOAD_THRESHOLD_ERROR:0.0
+OVERLOAD_THRESHOLD_BW_UTIL:1.0
+UNDERLOAD_THRESHOLD_HOST:0.0
+UNDERLOAD_THRESHOLD_HOST_BW:0.3
+UNDERLOAD_THRESHOLD_VM:0.3
+DECIDE_SLA_VIOLATION_GRACE_ERROR:1.0
+==================================================
+========== PARAMETERS ===========
+experimentName :SFC_On_1_5_LFF_
+CPU_REQUIRED_MIPS_PER_WORKLOAD_PERCENT:1.0
+monitoringTimeInterval:5.0
+overbookingTimeWindowNumPoints:1.0
+migrationTimeInterval:5.0
+OVERBOOKING_RATIO_MAX:1.0
+OVERBOOKING_RATIO_MIN:1.0
+OVERBOOKING_RATIO_INIT:1.0
+OVERBOOKING_RATIO_UTIL_PORTION:0.0
+OVERLOAD_HOST_PERCENTILE_THRESHOLD:0.0
+========== TOTAL POWER CONSUMPTION ===========
+Host energy consumed: 1.074225398903749
+Switch energy consumed: 0.05694466666666624
+Total energy consumed: 1.131170065570415
+========== MIGRATION ===========
+Attempted: 0
+Completed: 0
+========== HOST OVERLOADED ===========
+Scaled overloaded: 1.0
+Overloaded Percent: 0.0
+========== VM OVERLOADED ===========
+Scaled overloaded: 1.0
+Overloaded Percent: 0.0
+Simultanously used hosts:3
+============= SDNBroker.printResult() =============================
+Workloads Num: 12
+Workloads CPU Num: 108
+Workloads Network Num: 96
+Workloads Timed Out Num: 0
+Total serve time: 33.83349999999997
+Total serve time CPU: 22.716699999999975
+Total serve time Network: 11.116799999999989
+Avg serve time: 2.819458333333331
+Overall overtime percentage: 0.0
+Avg serve time CPU: 0.2103398148148146
+CPU overtime percentage: 0.0
+Avg serve time Network: 0.11579999999999989
+Network overtime percentage: 0.9583333333333334
+============= SDNBroker.printResult() Group analysis =======================
+Group num: 0, groupNumWorkloads:12
+Group num: 0, groupTotalServetime:33.83349999999997
+Group num: 0, groupTotalServetimeCPU:22.716699999999975
+Group num: 0, groupTotalServetimeNetwork:11.116799999999989
+Group num: 0, group avg Serve time:2.819458333333331
+Group num: 0, group avg Serve time CPU:1.8930583333333313
+Group num: 0, group avg Serve time Network:0.9263999999999991
+CloudSim SDN finished!

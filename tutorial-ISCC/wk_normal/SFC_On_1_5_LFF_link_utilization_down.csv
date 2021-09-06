@@ -1,0 +1,16 @@
+Switch: gw_dc_destination,5.0,0.044
+Switch: intercloud,5.0,7.733333333333333E-6
+Switch: intercloud,5.0,3.52E-5
+Switch: edge2,5.0,0.036
+Switch: gw_dc_source,5.0,0.0058
+Switch: edge1,5.0,0.0058
+Switch: edge1,5.0,0.0436
+Switch: edge2,5.0,0.044
+Switch: gw_dc_destination,10.0,0.0
+Switch: intercloud,10.0,0.0
+Switch: intercloud,10.0,0.0
+Switch: edge2,10.0,0.0072
+Switch: gw_dc_source,10.0,0.0
+Switch: edge1,10.0,0.0
+Switch: edge1,10.0,0.0
+Switch: edge2,10.0,0.0

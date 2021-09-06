@@ -1,0 +1,16 @@
+Switch: edge2,5.0,0.0058
+Switch: gw_dc_source,5.0,5.8666666666666665E-5
+Switch: gw_dc_destination,5.0,4.64E-6
+host04,5.0,0.0
+Switch: edge1,5.0,0.044
+host01,5.0,0.0436
+host02,5.0,0.044
+host03,5.0,0.0418
+Switch: edge2,10.0,0.0
+Switch: gw_dc_source,10.0,0.0
+Switch: gw_dc_destination,10.0,0.0
+host04,10.0,0.0
+Switch: edge1,10.0,0.0
+host01,10.0,0.0
+host02,10.0,0.0
+host03,10.0,0.0072
